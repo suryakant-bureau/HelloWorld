@@ -38,7 +38,7 @@ jobs:
         with:
           project-path: HelloWorld.xcodeproj
           # workspace-path: GitHubAction.xcworkspace # optional
-          scheme: GitHubAction
+          scheme: HelloWorld
           configuration: Release
           export-method: app-store
           p12-key-base64: ${{ secrets.P12_KEY_BASE64 }}
